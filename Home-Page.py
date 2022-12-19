@@ -34,7 +34,7 @@ st.title('Welcome to My Website!')  # Prints a title
 st.subheader('What is the purpose of this website?')  # Prints a header
 st.write('the purpose of this website is to use and analyze Boston police crime data and display it to the end user of this website in a interactive fashion, to this end add this website consists of three different pages each with its own unique function and  way to interact with the data.')
 
-image = Image.open('Final-Project/Icons/IMG_9903.jpg')  # opens an image of me
+
 st.subheader('A Little Bit About Me') # Prints a header
 st.write('My name is Cole Duval Im currently 21 years old and I currently go to Bentley  university studying to get my undergraduate in computer information systems. I am on the cross country team at Bentley and Im also in several clubs I love getting outside and being active and my favorite activities include running coding and playing the guitar. ')
-st.image(image, caption='a picture of me',width=200) # shows an image of me
+st.image('Final-Project/Icons/IMG_9903.jpg', caption='a picture of me',width=200) # shows an image of me
